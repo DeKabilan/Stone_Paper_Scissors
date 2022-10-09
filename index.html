@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>SPS</title>
+    <title>Stone_Paper_Scissor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -22,12 +22,21 @@
     </div>
     <div class="screen">
         <h1 class="title">ROCK PAPER SCISSORS</h1>
+        <div class="com">
+            <img id="comp" src="stone.png" style="display: none ;">
+        </div>
     </div>
     <div class="inputbox">
         <div class="input">
-            <button class="rock"><img class="design" src="stone.png"><br>ROCK</button>
-            <button class="paper"><img class="design" src="paper.png"><br>PAPER</button>
-            <button class="scissors"><img class="design" src="scissors.png"><br>SCISSORS</button>
+            <button class="rock" id="rocki" onclick="stone()"><img class="design" src="stone.png"><br>ROCK</button>
+            <button class="paper" id="paperi" onclick="paper()"><img class="design" src="paper.png"><br>PAPER</button>
+            <button class="scissors" id="scissori" onclick="scissor()"><img class="design" src="scissors.png"><br>SCISSORS</button>
+        </div>
+    </div>
+    <div class="result">
+        <div class="resultcont">
+            <h1 class="rc">RESULT</h1>
+            <h1 id="muthu" style="color: rgb(0, 0, 0);">NIL</h1>
         </div>
     </div>
 </body>
