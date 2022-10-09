@@ -1,2 +1,5 @@
 # Stone_Paper_Scissors
- Classic STS Game
+ Classic Stone Paper Scissors Game
+ <br>
+ <br>
+ <img src="DEMO.png">
