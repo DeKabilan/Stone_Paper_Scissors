@@ -1,0 +1,130 @@
+body {
+    background: no-repeat;
+    margin: 5vh;
+	background: linear-gradient(-45deg, rgb(173, 51, 51), #975151, #947a7a, #7e7575, #3b3b3b,#6e6d6d);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 80vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.screen{
+    position: relative;
+    bottom: 30vh;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2p 2px;
+    border-color: black ;
+    margin-left: 2vh;
+    background-color: #ffffff;
+    opacity: 50%;
+    height: 60vh;
+    width: 100vh;
+    text-align: center;
+    display: inline-block;
+}
+
+.rules{
+    position: relative;
+    top: 10vh;
+    background-color: #ffffff;
+    margin-left: 18vh;
+    opacity: 50%;
+    height: auto;
+    width: 30vh;
+    border-radius: 20px;
+    display: inline-block;
+    font-family: 'Silkscreen', cursive;
+    padding-top: 3vh;
+}
+
+.title{
+    padding-top: 2vh;
+    font-family: 'Silkscreen', cursive;
+    opacity: 100%;
+}
+
+.inputbox{
+    position: relative;
+    bottom: 30vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2p 2px;
+    border-color: black ;
+    margin-left: 50vh;
+    margin-top: 3vh;
+    background-color: #ffffff;
+    opacity: 50%;
+    height: 20vh;
+    width: 100vh;
+    display: inline-block;
+}
+
+.input{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rock{
+    font-family: 'Silkscreen', cursive;
+    margin-top: 2.5vh;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 20px;
+}
+.paper{
+    font-family: 'Silkscreen', cursive;
+    margin-top: 2.5vh;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 20px;
+}
+.scissors{
+    font-family: 'Silkscreen', cursive;
+    margin-top: 2.5vh;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 20px;
+}
+
+.design{
+    height: 50%;
+    width: 40%;
+}
+
+.input>:hover{
+    background-color: #8f8f8f;
+}
+.input>:active{
+    background-color: #646464;
+}
+.rt{
+    text-align: center;
+    font-size: 150%;
+}
+.content{
+    text-align: center;
+    font-size: 100%;
+    margin: 10px;
+}
+
+.realr{
+    text-align: left;
+    margin-left: 3vh;
+}
+
+.makeascene{
+    margin-bottom: 5vh;
+}
